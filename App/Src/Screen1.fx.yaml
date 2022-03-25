@@ -1,0 +1,13 @@
+Screen1 As screen:
+
+    Label1 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =21
+        Text: ="PowerApps-GitHubActions-Ver2"
+        Width: =560
+        X: =(Screen1.Width - Self.Width)/2
+        Y: =(Screen1.Height - Self.Height) / 2
+        ZIndex: =1
+
