@@ -11,3 +11,12 @@ Screen1 As screen:
         Y: =(Screen1.Height - Self.Height) / 2
         ZIndex: =1
 
+    Button1 As button:
+        Height: =70
+        Size: =24
+        Text: ="Push"
+        Width: =280
+        X: =(Screen1.Width - Self.Width)/2
+        Y: =Label1.Y + Label1.Height + 30
+        ZIndex: =2
+
