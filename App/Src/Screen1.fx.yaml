@@ -11,3 +11,24 @@ Screen1 As screen:
         Y: =(Screen1.Height - Self.Height) / 2
         ZIndex: =1
 
+    Button1 As button:
+        Height: =70
+        OnSelect: =Set(countButtonPushed, countButtonPushed + 1)
+        Size: =24
+        Text: ="Push"
+        Width: =280
+        X: =(Screen1.Width - Self.Width)/2
+        Y: =Label1.Y + Label1.Height + 30
+        ZIndex: =2
+
+    Label2 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =44
+        Text: =countButtonPushed
+        Width: =560
+        X: =(Screen1.Width - Self.Width)/2
+        Y: =Label1.Y - Label1.Height - 30
+        ZIndex: =3
+
